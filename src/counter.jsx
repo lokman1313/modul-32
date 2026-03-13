@@ -8,7 +8,8 @@ const [count,setvalue]=useState(0);
  }
     const counterStyle={
         border:'2px solid green' ,
-        padding:'23px'
+        padding:'23px',
+        margin:'20px'
     }
     return (
         <div style={counterStyle}>
